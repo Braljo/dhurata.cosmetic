@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhurata Cosmetics</title>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #fff; color: #333; }
+    header { background: #e91e63; color: #ad4444; padding: 20px; text-align: center; }
+    nav { margin-top: 10px; }
+    nav a { color: rgb(53, 6, 6); margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+
+    section { padding: 50px; text-align: center; }
+    h1, h2 { margin-bottom: 20px; }
+
+    .hero { background: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9') no-repeat center center/cover; 
+            color: white; padding: 100px 20px; }
+    .hero h1 { font-size: 3em; }
+
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .product-card { border: 1px solid #ddd; border-radius: 10px; padding: 20px; background: #fafafa; }
+    .product-card img { width: 100%; border-radius: 10px; }
+    .product-card h3 { margin: 15px 0 10px; }
+    .product-card button { background: #e91e63; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+    .product-card button:hover { background: #c2185b; }
+
+    footer { background: #e91e63; color: white; text-align: center; padding: 20px; margin-top: 20px; }
+  </style>
+
+</head>
+<body>
+<!-- Menu Bar -->
+<nav class="menu-bar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dhurata.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+  <!-- Header -->
+  <header>
+    <h1>Dhurata Cosmetics</h1>
+    <nav>
+      <a href="#berber">berber</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Glow with Confidence</h1>
+    <p>Discover natural and premium cosmetic products for your beauty.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Dhurata Cosmetics, we believe beauty should be natural, safe, and empowering. 
+    Our mission is to provide high-quality cosmetic products that enhance your beauty while caring for your skin.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="images/lipstick.jpeg" alt="Lipstick" width="300">
+        <h3>Luxury Lipstick</h3>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/shampo k05.jpeg" alt="Shampo K05">
+        <h3>Shampo K05</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/balsam purfin.jpeg" alt="Balsam Purify">
+        <h3>Balsam Purify</h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div><div class="product-card">
+  <img src="images/Shampo Pufin.jpg" alt="Shampo Purify">
+  <h3>Shampo Purify>
+  <p>$39.99</p>
+  <button>Add to Cart</button>
+</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@dhuratacosmetics.com</p>
+    <p>Phone: +123 456 789</p>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Your Email" required><br><br>
+      <textarea placeholder="Your Message"></textarea><br><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dhurata Cosmetics | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhurata Cosmetics</title>
+
+  <!-- CSS is here -->
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #fff; color: #333; }
+    header { background: #e91e63; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+
+    /* 👇 Add this part to make product photos the same size */
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+
+.menu-bar {
+    background-color: #a51f1f;  /* dark background */
+    overflow: visible;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar li {
+    float: left; /* horizontal menu */
+}
+
+.menu-bar li a {
+    display: block;
+    color: rgb(146, 17, 17); /* text color */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    background-color: #555; /* hover effect */
+}
+
+    
+
+
+      
+      
+      
+
+  
+
+
+
+
+
+
+
+
+
